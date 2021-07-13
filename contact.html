@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Soysal Restaurant Web Sitesi - Sitemize Hoşgeldiniz...</title>
+	
+	<!-- Meta Etiketleri -->
+	<meta charset="utf-8">
+	<meta name="description" content="Restaurant Web Sitesi - Lezzet Durağı">
+	<meta name="keywords" content="restaurant, lezzet, yemek, ızgaralar, yemekler, çorbalar, ev yemekleri, kebaplar, tatlılar, içecekler, sıcak soğuk içecekler">
+	<meta name="author" content="Emre Soysal">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	
+	<!-- CSS Bağlantısı -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Site İkonu -->
+	<link rel="shortcut icon" href="images/rest.ico">
+	
+	<!-- YAZI AİLESİ BAĞLANTILARI -->
+	<!-- Büyük Başlıklar İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+	<!-- Alt Başlıklar İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<!-- İçerik Metni İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+	<!-- El Yazısı -->
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+
+	<script type="text/javascript">
+		$(function(){
+			$("#navMobileButton").click(function(){
+				$("#ulNavMobile").toggle(200);
+			})
+		})
+	</script>
+</head>
+<body>
+	<header id="contentHeader" style="background: url(images/c-header-bg.jpg);	background-size: cover;	background-repeat: no-repeat; background-position: center;">
+		<div id="contentHeaderContainer">
+			<div id="headerTop">
+				<ul id="ulTopLeft">
+					<li><a href="index.html">ANASAYFA</a></li>
+					<li><a href="about-us.html">HAKKIMIZDA</a></li>
+					<li><a href="contact.html">İLETİŞİM</a></li>
+				</ul>
+				<div id="topRight">
+					<div class="topContactLogo">
+						<img src="images/phone-icon.png">
+					</div>
+					<div class="topContactText">
+						0545 717 31 37
+					</div>
+					<div class="topContactLogo">
+						<img src="images/email-icon.png">
+					</div>
+					<div class="topContactText">
+						esoysal@gmail.com
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<!-- NAV BAŞLANGICI -->
+		<nav>
+			<div id="navContainer">
+				<div id="navLogo">SOYSAL RESTAURANT</div>
+				<ul id="ulNavRight">
+					<li>
+						<a href="index.html">ANASAYFA</a>
+					</li>
+					<li>
+						<a href="menu.html">MENÜ</a>
+					</li>
+					<li>
+						<a href="reservation.html">REZERVASYON</a>
+					</li>
+					<li>
+						<a href="package-service.html">PAKET SERVİS</a>
+					</li>
+					<li>
+						<a href="contact.html">İLETİŞİM</a>
+					</li>
+				</ul>
+				<div id="navMobileButton"></div>
+				<ul id="ulNavMobile">
+					<li>
+						<a href="index.html">ANASAYFA</a>
+					</li>
+					<li>
+						<a href="about-us.html">HAKKIMIZDA</a>
+					</li>
+					<li>
+						<a href="menu.html">MENÜ</a>
+					</li>
+					<li>
+						<a href="reservation.html">REZERVASYON</a>
+					</li>
+					<li>
+						<a href="package-service.html">PAKET SERVİS</a>
+					</li>
+					<li>
+						<a href="contact.html">İLETİŞİM</a>
+					</li>
+				</ul>
+			</div>	
+		</nav>
+	</header>
+	
+	<!-- SECTION BAŞLANGICI -->
+	<section class="contentContainer">
+		<div class="contactParts">
+			<h1>BİZE ULAŞIN</h1>
+			<p><span>Adres</span> : Göztepe Mahallesi Zambak Sokak No:4 Bağcılar/İstanbul</p>
+			<p><span>Telefon</span> : 0545 717 31 37</p>
+			<p><span>Email</span> : info@soysalrestaurant.com</p>
+			<h2>Bizi Sosyal Medyadan Takip Edebilirsiniz</h2>
+			<a href=""><img src="images/f-icon.png"></a>
+			<a href=""><img src="images/i-icon.png"></a>
+			<a href=""><img src="images/t-icon.png"></a>
+		</div>
+		<div class="contactParts">
+			<h1>İLETİŞİM FORMU</h1>
+			<form>
+				<input class="input inputLeft" type="text" name="name" placeholder="Adınızı Giriniz" required>
+				<input class="input inputRight" type="text" name="surname" placeholder="Soyadınızı Giriniz" required>
+				<input class="input inputLeft" type="email" name="email" placeholder="Email Adresinizi Giriniz" required>
+				<input class="input inputRight" type="tel" name="tel" placeholder="Telefon Numaranızı Giriniz">
+				<div style="clear: both;"></div>
+				<textarea placeholder="Mesajınızı buraya yazabilirsiniz..." name="message"></textarea>
+				<input class="submit" type="submit" value="MESAJ GÖNDER">
+			</form>
+		</div>
+		<div style="clear: left;"></div>
+	</section>
+	<section class="unlimitedSec">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.1659005525677!2d28.837083488136653!3d41.05448501000716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAzJzE2LjEiTiAyOMKwNTAnMTUuNSJF!5e0!3m2!1str!2str!4v1619280624550!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	
+	<!-- FOOTER BAŞLANGIÇ -->
+	<footer>
+		<div id="footerContainer">
+			<div class="footerBox">
+				<h1>SOYSAL RESTAURANT</h1>
+				<a href=""><img src="images/f-icon.png"></a>
+				<a href=""><img src="images/i-icon.png"></a>
+				<a href=""><img src="images/t-icon.png"></a>
+			</div>
+			<div class="footerBox">
+				<h2>BİZE ULAŞIN</h2>
+				<p><span style="color: red;">Tel:</span> 0545 717 31 37</p>
+				<p><span style="color: red;">Email:</span> info@soysalrestaurant.com</p>
+				<p><span style="color: red;">Web:</span> www.soysalrestaurant.com</p>
+				<p><span style="color: red;">Adres:</span> Göztepe Mahallesi Zambak Sokak No:4 Bağcılar/İstanbul</p>
+			</div>
+			<div class="footerBox">
+				<h2>ABONE OL</h2>
+				<p>Restaurantımızın indirim ve etkinliklerinden haberdar olmak istiyorsanız email adresinizi girmeniz yeterli olacaktır.</p>
+				<form>
+					<input type="email" name="email" placeholder="Email Adresinizi Giriniz" required><br>
+					<input type="submit" value="ABONE OL" style="background: red; color: white; cursor: pointer;">
+				</form>
+			</div>
+			<div style="clear: left;"></div>
+		</div>
+		<div id="copyright">&copy 2021 - Designed by Soysal</div>
+	</footer>
+</body>
+</html>
